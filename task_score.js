@@ -5,16 +5,15 @@ let score3 = 7
 
 console.log(`введение ${score1}, git ${score2}, js ${score3}`);
 
-let result = score1 + score2 + score3
 
-console.log(result); 
+let averageResult = (score1 + score2 + score3) / 3
 
-let averageResult = result/3
 
-console.log(Math.trunc(averageResult));
+const studentFirsName = "Natallia"
+const studentSecondName = "Zakharenka"
 
-let studentFirsName = "Natallia"
-let studentSecondName = "Zakharenka"
 
-console.log(`${studentFirsName} ${studentSecondName} average result for all modules is ${Math.trunc(averageResult)}`);
+console.log(
+    `${studentFirsName.slice(0, 1)}. ${studentSecondName},average result for all modules is ${Math.trunc(averageResult)}`
+ );
 
