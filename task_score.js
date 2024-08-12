@@ -1,12 +1,12 @@
 
-let score1 = 10
-let score2 = 8
-let score3 = 7
+let scoreIntro = 10
+let scoreGit = 8
+let scoreJs = 7
 
-console.log(`введение ${score1}, git ${score2}, js ${score3}`);
+console.log(`введение ${scoreIntro}, git ${scoreGit}, js ${scoreJs}`);
 
 
-let averageResult = (score1 + score2 + score3) / 3
+let averageResult = (scoreIntro + scoreGit + scoreJs) / 3
 
 
 const studentFirsName = "Natallia"
