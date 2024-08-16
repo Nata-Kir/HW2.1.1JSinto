@@ -1,24 +1,29 @@
 const players = [
     {
     "id": 1,
-    "name": "Ivan",
-    "scorePoints": 4500
+    "name": "Aleksandr Ivanov",
+    "scorePoints": 8000.6
     },
     {
     "id": 2,
-    "name": "Petr",
-    "scorePoints": 3600
+    "name": "Sarah",
+    "scorePoints": 650
     },
     {
     "id": 3,
-    "name": "Vadim",
-    "scorePoints": 3433
+    "name": "Michael-David",
+    "scorePoints": 7200
     },
     {
     "id": 4,
-    "name": "Olga",
-    "scorePoints": 2356
+    "name": null,
+    "scorePoints": 5800
     },
+    {
+    "id": 5,
+    "name": " ",
+    "scorePoints": 7999.99
+    }
     ];
     let scoreArray = [];
 
