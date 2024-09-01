@@ -9,3 +9,5 @@ function printMonth(expences) {
   }
   
   let yearlyExpences = [ 2500, 6000, 7000, 6000, 3, 9, 700, 8000, 655, 5700, 340, 5390, ]
+
+  printMonth(yearlyExpences)
