@@ -1,4 +1,4 @@
-class View {
+class Button {
   constructor(height, width, type, color) {
     this.height = height;
     this.width = width;
@@ -8,17 +8,17 @@ class View {
   onClick() {
     console.log(this);
   }
-  testButton(expectedHeight, expectedWidht, expetedType, expectedColor) {
+  testButton(expectedHeight, expectedWidth, expetedType, expectedColor) {
     return console.log(
       this.height === expectedHeight &&
-        this.width === expectedWidht &&
+        this.width === expectedWidth &&
         this.type === expetedType &&
         this.color === expectedColor
     );
   }
 }
 
-let myButton = new View(5, 10, "button", "green");
+let myButton = new Button(5, 10, "button", "green");
 console.log(myButton);
 myButton.onClick();
 myButton.testButton(5, 10, "button", "green");
