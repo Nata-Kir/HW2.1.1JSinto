@@ -1,0 +1,22 @@
+{
+  "name": "natallias_first_project",
+  "version": "1.0.0",
+  "description": "my first node.js project",
+  "main": " Players_score.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Nata-Kir/HW2JSintro)"
+  },
+  "keywords": [
+    "test",
+    "npm"
+  ],
+  "author": "N Zakharenka",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
