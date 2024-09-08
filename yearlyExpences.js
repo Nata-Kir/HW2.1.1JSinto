@@ -1,12 +1,3 @@
-function expencesCount(expences) {
-  let sum = 0;
-  for (let i = 0; i < expences.length; i++) {
-    if (expences[i] < 1000) continue;
-    sum += expences[i];
-  }
-  return sum;
-}
-
 let expencesExamples = [
   {
     yearlyExpences: [
@@ -26,6 +17,14 @@ let expencesExamples = [
 ];
 
 expencesExamples.forEach((element) => {
-  let result = expencesCount(element.yearlyExpences);
-  console.log(result);
+  printMonth(element.yearlyExpences);
 });
+
+function printMonth(expences) {
+  for (let i = 0; i < expences.length; i++) {
+    if (expences[i] <= 1000) {
+      let date = new Date(`${i + 1}`);
+      const month = date.toLocaleString("default", { month: "long" });
+    }
+  }
+}
